@@ -1,0 +1,31 @@
+{
+  "name": "fixed-merkle-tree",
+  "version": "0.6.0",
+  "description": "Fixed depth merkle tree implementation with sequential inserts",
+  "repository": "https://github.com/meold/fixed-merkle-tree.git",
+  "main": "src/merkleTree.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "merkle",
+    "tree",
+    "merkleTree"
+  ],
+  "author": "Roman Semenov <semenov.roma@gmail.com>",
+  "license": "ISC",
+  "files": [
+    "src/*"
+  ],
+  "dependencies": {
+    "snarkjs": "github:meold/snarkjs-0.1.20",
+    "circomlib": "github:meold/circomlibjs-0.0.20"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.5.0",
+    "mocha": "^8.1.0"
+  }
+}
